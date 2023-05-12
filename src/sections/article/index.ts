@@ -1,0 +1,1 @@
+export {CustomArticle} from "./custom_article"

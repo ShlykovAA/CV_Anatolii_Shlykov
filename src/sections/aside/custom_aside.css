@@ -1,0 +1,70 @@
+.left_part{
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    background-color: #4c5566;
+    color: #fbfcfb;
+    border-left: solid 1px #c1c1c7;
+}
+
+.my_photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    width: 344px;
+}
+
+.photo {
+    border: #0f2231 solid 15px;
+    width: 264px;
+}
+
+.contact {
+    margin-top: 6px;
+    width: 284px;
+    padding-left: 60px;
+}
+
+.education {
+    margin-top: 40px;
+    width: 284px;
+    padding-left: 60px;
+}
+
+.expertise {
+    margin-top: 40px;
+    width: 284px;
+    padding-left: 60px;
+}
+
+.language {
+    margin: 40px 0 40px 0;
+    width: 284px;
+    padding-left: 60px;
+    white-space: pre-wrap;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: "Lato", "Brandon Grotesque" ;
+}
+
+.left_line {
+    width: 283px;
+    margin: 0 0 25px 0;
+    color: #fbfcfb;
+    size: 1px;
+}
+
+.ul_expertise {
+    padding-left: 15px;
+    width: 269px;
+    font-size: 0.95rem;
+}
+
+.li_expertise {
+    margin: 10px 0 10px 0;
+    white-space: pre-wrap;
+}

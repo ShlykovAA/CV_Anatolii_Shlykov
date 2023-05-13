@@ -3,12 +3,13 @@ import "./custom_aside.css"
 import { Contacts } from "../../components/contacts";
 import { dataForContacts, dataForEducation, dataForExpertise, dataForLanguage } from "../../constants/data_for_aside";
 import { Education } from "../../components/education";
+import myPhotoFile from "../../../public/my_photo.jpg";
 
 export const CustomAside:FC = () => {
     return (
         <aside className="left_part">
             <section className="my_photo">
-                <img src="../../../public/my_photo.jpg" alt="My photo for CV" className="photo"/>
+                <img src={myPhotoFile} alt="My photo for CV" className="photo"/>
             </section>
             <section className="contact">
                 <h2>Contacts</h2>

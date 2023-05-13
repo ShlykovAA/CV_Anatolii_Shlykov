@@ -68,3 +68,46 @@ h2 {
     margin: 10px 0 10px 0;
     white-space: pre-wrap;
 }
+
+@media (max-width: 996px) {
+    .left_part{
+        width: 35%;
+    }
+
+    .my_photo {
+        width: 100%;
+    }
+
+    .photo {
+        width: 80%;
+    }
+
+    .contact {
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .education {
+        width: 90%;
+        padding-left: 10%;
+    }
+    
+    .expertise {
+        width: 90%;
+        padding-left: 10%;
+    }
+    
+    .language {
+        width: 90%;
+        padding-left: 10%;
+    }
+    
+    .left_line {
+        width: 100%;
+    }
+    
+    .ul_expertise {
+        padding-left: 5%;
+        width: 95%;
+    }
+}

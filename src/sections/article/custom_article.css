@@ -52,3 +52,25 @@ h1 {
     color: black;
     size: 1px;
 }
+
+@media (max-width: 996px) {
+    .right_part {
+        width: 65%;
+    }
+    
+    h1 {
+        letter-spacing: 1px;
+    }
+    
+    .last_name {
+        margin-left: 3%;
+    }
+    
+    .question {
+        width: 35%;
+    }
+    
+    .answer {
+        width: 35%;
+    }
+}

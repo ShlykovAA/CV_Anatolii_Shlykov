@@ -18,3 +18,39 @@
 .p_text{
     margin: 0;
 }
+
+@media (max-width: 767px) {
+    .p_experience_years {
+        font-size: 0.9rem;
+    }
+    
+    .p_experience_company {
+        font-size: 0.95rem;
+    }
+    
+    .h3_position {
+        font-size: 1.1rem;
+    }
+    
+    .p_text{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .p_experience_years {
+        font-size: 0.8rem;
+    }
+    
+    .p_experience_company {
+        font-size: 0.85rem;
+    }
+    
+    .h3_position {
+        font-size: 1rem;
+    }
+    
+    .p_text{
+        font-size: 0.8rem;
+    }
+}

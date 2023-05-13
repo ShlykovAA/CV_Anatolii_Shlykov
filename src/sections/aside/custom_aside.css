@@ -80,34 +80,59 @@ h2 {
 
     .photo {
         width: 80%;
+        border: #0f2231 solid 10px;
     }
 
     .contact {
-        width: 90%;
+        width: 85%;
         padding-left: 10%;
     }
 
     .education {
-        width: 90%;
+        width: 85%;
         padding-left: 10%;
     }
     
     .expertise {
-        width: 90%;
+        width: 85%;
         padding-left: 10%;
     }
     
     .language {
-        width: 90%;
+        width: 85%;
         padding-left: 10%;
     }
     
     .left_line {
-        width: 100%;
+        width: 105%;
     }
     
     .ul_expertise {
         padding-left: 5%;
         width: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+    .photo {
+        border: #0f2231 solid 5px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .ul_expertise {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 575px) {
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .ul_expertise {
+        font-size: 0.7rem;
     }
 }

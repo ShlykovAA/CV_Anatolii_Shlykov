@@ -8,7 +8,7 @@ export const CustomAside:FC = () => {
     return (
         <aside className="left_part">
             <section className="my_photo">
-                <img src="../../../public/my_photo.jpg" alt="My photo for CV" className="photo"/>
+                <img src="./public/my_photo.jpg" alt="My photo for CV" className="photo"/>
             </section>
             <section className="contact">
                 <h2>Contacts</h2>

@@ -1,6 +1,6 @@
 import { FC } from "react";
 import "./custom_article.css"
-import { dataAboutMe, dataForExperience, dataForStatusAnswer, dataForStatusQuestion } from "../../constants/data_for_article";
+import { dataAboutMe, dataForExperience } from "../../constants/data_for_article";
 import { Experience } from "../../components/experience";
 
 export const CustomArticle:FC = () => {

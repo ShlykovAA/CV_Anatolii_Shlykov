@@ -3,16 +3,34 @@ import { IEducation } from "../components/education";
 
 export const dataForContacts:IContacts[] = [
     {
-        title: "Phone",
-        description: "+38 066 909 27 05",
+        title: "Phone:",
+        description: "+380975608901",
+        href: "",
     },
     {
-        title: "Email",
+        title: "Email:",
         description: "anatolio7z@mail.com",
+        href: "mailto:anatolio7z@mail.com",
     },
     {
-        title: "Address",
+        title: "Telegram:",
+        description: "@Sintell",
+        href: "t.me/Sintell",
+    },
+    {
+        title: "LinkedIn:",
+        description: "in/anatolii-shlykov",
+        href: "https://www.linkedin.com/in/anatolii-shlykov-6b076827a/",
+    },
+    {
+        title: "GitHub:",
+        description: "github.com/ShlykovAA",
+        href: "https://github.com/ShlykovAA",
+    },
+    {
+        title: "Address:",
         description: "Ukraine, Ivano-Frankivsk",
+        href: "",
     },
 ];
 
@@ -30,15 +48,26 @@ export const dataForEducation:IEducation[] = [
 ];
 
 export const dataForExpertise: string[] = [
-    "SAP, TMS, WMS",
-    "Microsoft Office",
-    "Zoom, Teams, Skype, etc",
-    "I'm taking a course: Html, CSS, JavaScript",
-    "Market (analogue 1С)",
-    "Distant work",
+    "HTML, CSS, SCSS",
+    "JavaScript, TypeScript",
+    "React, Vite",
+    "Git, GitHub",
+    "Hooks, Formik, Yup, Redux",
+    "Adaptive layout, Pixel Perfect",
 ];
 
-export const dataForLanguage:IContacts = {
-    title: "English: Pre - Intermediate",
-    description: "School Green Forest, Kharkiv. Completed Beginner, Elementary and Pre-Intermediate courses."
+interface IDataForLanguage {
+    title: string;
+    description: string;
 }
+
+export const dataForLanguage: IDataForLanguage[] = [
+    {
+        title: "English: Pre - Intermediate",
+        description: "School Green Forest, Kharkiv. Completed Beginner, Elementary and Pre-Intermediate courses."
+    },
+    {
+        title: "Front-End",
+        description: "A-Level, Kharkiv. Completed basics of programming and Front-End courses."
+    },
+]

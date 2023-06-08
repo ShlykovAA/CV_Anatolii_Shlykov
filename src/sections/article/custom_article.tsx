@@ -10,14 +10,7 @@ export const CustomArticle:FC = () => {
                 <div className="div_for_my_name">
                     <h1 className="first_name">Anatolii</h1><h1 className="last_name">Shlykov</h1>
                 </div>
-                <div className="div_for_status">
-                    <div className="question">
-                        {dataForStatusQuestion.map((item) => (<p className="p_status">{item}</p>))}
-                    </div>
-                    <div className="answer">
-                        {dataForStatusAnswer.map((item) => (<p className="p_status">{item}</p>))}
-                    </div>
-                </div>
+                <h2>Junior Front-End Developer</h2>
             </section>
             <section className="about_me">
                 <h2>About me</h2>

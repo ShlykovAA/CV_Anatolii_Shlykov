@@ -13,11 +13,11 @@
 
 h1 {
     letter-spacing: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .first_name {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 .last_name {
@@ -25,26 +25,8 @@ h1 {
     font-weight: 400;
 }
 
-.div_for_status {
-    display: flex;
-}
-
-.question {
-    width: 200px;
-    font-weight: bold;
-}
-
-.answer {
-    width: 200px;
-}
-
-.p_status {
-    margin: 0;
-    font-size: 1.2rem;
-}
-
 .about_me {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .right_line {

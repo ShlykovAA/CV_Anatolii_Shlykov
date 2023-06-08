@@ -1,9 +1,10 @@
 import { FC } from "react";
-import "./custom_aside.css"
 import { Contacts } from "../../components/contacts";
 import { dataForContacts, dataForEducation, dataForExpertise, dataForLanguage } from "../../constants/data_for_aside";
 import { Education } from "../../components/education";
+import { Language } from "../../components/language";
 import myPhotoFile from "../../../public/my_photo.jpg"
+import "./custom_aside.css"
 
 export const CustomAside:FC = () => {
     return (
@@ -16,11 +17,6 @@ export const CustomAside:FC = () => {
                 <hr className="left_line" />
                 {dataForContacts.map((item) => (<Contacts {...item}/>))}
             </section>
-            <section className="education">
-                <h2>Education</h2>
-                <hr className="left_line" />
-                {dataForEducation.map((item) => (<Education {...item}/>))}
-            </section>
             <section className="expertise">
                 <h2>Expertise</h2>
                 <hr className="left_line" />
@@ -30,10 +26,15 @@ export const CustomAside:FC = () => {
                     })}
                 </ul>
             </section>
+            <section className="education">
+                <h2>Education</h2>
+                <hr className="left_line" />
+                {dataForEducation.map((item) => (<Education {...item}/>))}
+            </section>
             <section className="language">
                 <h2>Language</h2>
                 <hr className="left_line" />
-                <Contacts {...dataForLanguage}/>
+                {dataForLanguage.map((item) => (<Language {...item}/>))}
             </section>
         </aside>
     );

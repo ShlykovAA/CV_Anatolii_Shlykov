@@ -1,27 +1,33 @@
 .h3_contact {
     margin: 15px 0 0 0;
+    font-size: 1rem;
 }
-.p_contact {
+.a_contact {
+    color: white;
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
+}
+
+.a_contact:hover {
+    color: white;
 }
 
 @media (max-width: 767px) {
     .h3_contact {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
-    .p_contact {
+    .a_contact {
         font-size: 0.8rem;
     }
 }
 
 @media (max-width: 575px) {
     .h3_contact {
-        font-size: 0.85rem;
+        font-size: 0.7rem;
     }
 
-    .p_contact {
+    .a_contact {
         font-size: 0.7rem;
     }
 }

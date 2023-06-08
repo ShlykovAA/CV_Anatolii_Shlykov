@@ -1,0 +1,28 @@
+.h3_language {
+    margin: 15px 0 0 0;
+}
+.p_language {
+    color: white;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+    .h3_language {
+        font-size: 1rem;
+    }
+
+    .p_language {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .h3_language {
+        font-size: 0.85rem;
+    }
+
+    .p_language {
+        font-size: 0.7rem;
+    }
+}

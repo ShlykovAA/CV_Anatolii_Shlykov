@@ -14,7 +14,7 @@ export const dataForStatusAnswer:string[] = [
     "unmarried",
 ];
 
-export const dataAboutMe:string = "I am well versed in computer systems and computer technology. I adapt quickly in unfamiliar programs. I worked in various spheres of activity, successfully demonstrated himself in each sphere. I have been working remotely for the past three years.";
+export const dataAboutMe:string = "I am a front-end developer, completed a 6 month course in A-Level school. I am looking for a remote job in web development. I adapt quickly in unfamiliar programs, so i am always open to learning new technologies and development techniques. Have experience working remotely.";
 
 export const dataForExperience: IExperience[] = [
     {

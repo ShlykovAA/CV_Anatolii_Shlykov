@@ -18,7 +18,7 @@ export const CustomAside:FC = () => {
                 {dataForContacts.map((item) => (<Contacts {...item}/>))}
             </section>
             <section className="expertise">
-                <h2>Expertise</h2>
+                <h2>Skills</h2>
                 <hr className="left_line" />
                 <ul className="ul_expertise">
                     {dataForExpertise.map((item,index) => {

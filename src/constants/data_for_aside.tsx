@@ -5,7 +5,7 @@ export const dataForContacts:IContacts[] = [
     {
         title: "Phone:",
         description: "+380975608901",
-        href: "",
+        href: "tel:+380975608901",
     },
     {
         title: "Email:",
@@ -15,12 +15,12 @@ export const dataForContacts:IContacts[] = [
     {
         title: "Telegram:",
         description: "@Sintell",
-        href: "t.me/Sintell",
+        href: "https://t.me/Sintell",
     },
     {
         title: "LinkedIn:",
         description: "in/anatolii-shlykov",
-        href: "https://www.linkedin.com/in/anatolii-shlykov-6b076827a/",
+        href: "https://www.linkedin.com/in/anatolii-shlykov/",
     },
     {
         title: "GitHub:",

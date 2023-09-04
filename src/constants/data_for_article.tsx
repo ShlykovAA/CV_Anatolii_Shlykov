@@ -1,6 +1,6 @@
 import { IExperience } from "../components/experience";
 
-export const dataAboutMe:string = "I am a front-end developer, completed a 6 month course in A-Level school. I am looking for a remote job in web development. I adapt quickly in unfamiliar programs, so i am always open to learning new technologies and development techniques. Have experience working remotely.";
+export const dataAboutMe:string = "I am a web developer, completed a course on front-end at A-level company. I'm looking for a remote job in web development. I am also ready to move to Kyiv. I adapt quickly in unfamiliar programs, so i am always open to learning new technologies and development techniques. Have experience working remotely.";
 
 export const dataForExperience: IExperience[] = [
     {
